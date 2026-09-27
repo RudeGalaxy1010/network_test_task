@@ -5,7 +5,8 @@
         "NetworkMessages.Api",
         "NetworkMessages.Impl",
         "Mirror",
-        "Zenject"
+        "Zenject",
+        "Zenject-usage"
     ],
     "includePlatforms": [
         "Editor"

@@ -1,9 +1,7 @@
 using Mirror;
 
-namespace App.Network.Api
-{
-    public interface INetworkMessageServerService
-    {
+namespace App.Network.Api.App.Network.Api {
+    public interface INetworkMessageServerService {
         void Initialize();
 
         void SendToSubscribers<T>(T message)

@@ -1,0 +1,26 @@
+{
+    "name": "NetworkMessages.PlayModeTests",
+    "rootNamespace": "App.Network.Tests.PlayMode",
+    "references": [
+        "NetworkMessages.Api",
+        "NetworkMessages.Impl",
+        "Mirror",
+        "Mirror.Transports",
+        "Zenject",
+        "UnityEngine.TestRunner"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Zenject-usage.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

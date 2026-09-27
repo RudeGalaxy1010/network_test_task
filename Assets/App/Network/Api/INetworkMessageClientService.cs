@@ -1,11 +1,8 @@
 using System;
-
 using Mirror;
 
-namespace App.Network.Api
-{
-    public interface INetworkMessageClientService
-    {
+namespace App.Network.Api.App.Network.Api {
+    public interface INetworkMessageClientService {
         void Initialize();
 
         void Subscribe<T>(Action<T> handler)
